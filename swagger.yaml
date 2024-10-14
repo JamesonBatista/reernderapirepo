@@ -1,0 +1,110 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: API de JSONs para Treinamento de Validações de QA
+  description: |
+    Se desafie aqui, valide todos os JSONs que vão aumentando a complexidade a cada json, depois disso, você está pronto para uma API :)
+
+paths:
+  /json_1:
+    get:
+      summary: Retorna o JSON 1 como exemplo
+      description: 1 - Verificar que todos os nomes dentro do array de objetos no arrayDeObjetos começam com letra maiúscula e que os valores sejam todos positivos.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 1
+
+  /json_2:
+    get:
+      summary: Retorna o JSON 2 como exemplo
+      description: 2 - Desafio de Validação Assegurar que todas as datas em historicoDePedidos estejam no formato YYYY-MM-DD e que nenhum precoTotal exceda a soma dos preços dos produtos multiplicados pela quantidade.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 2
+
+  /json_3:
+    get:
+      summary: Retorna o JSON 3 como exemplo
+      description: 3 - Desafio de Validação Garantir que o veiculoLancadorId em cada satelites e missoes corresponda a um id válido dos veiculosLancadores e que todos os status estejam dentro dos valores permitidos ["ativo", "inativo", "planejado", "em preparação", "concluído"].
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 3
+
+  /json_4:
+    get:
+      summary: Retorna o JSON 4 como exemplo
+      description: 4 - Desafio de Validação Verificar a consistência das linguas e tradicionalVestimenta entre as culturas para garantir que não haja duplicatas no mesmo continente e que cada cultura esteja associada a apenas uma região.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 4
+
+  /json_5:
+    get:
+      summary: Retorna o JSON 5 como exemplo
+      description: 5 - Desafio de Validação Assegurar que cada id nos projetos, equipes, e tarefas seja único dentro de toda a estrutura do JSON e que o status de cada tarefa esteja em concordância com as dependências de outras tarefas dentro da mesma equipe.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 5
+
+  /json_6:
+    get:
+      summary: Retorna o JSON 6 como exemplo
+      description: 6 - Desafio de Validação Validar que cada veiculoLancadorId em satelites e missoes seja não apenas existente, mas também que o primeiroLancamento do veículo seja anterior à data de qualquer missão que ele tenha lançado. Verificar também que cada tripulante em missoes tripuladas possua as certificações necessárias para a missão especificada.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 6
+
+  /json_7:
+    get:
+      summary: Retorna o JSON 7 como exemplo
+      description: |
+        Consistência de Equipes: Assegurar que todas as equipes mencionadas nos jogos estejam listadas nas equipes participantes do torneio correspondente. Isso envolve verificar se as equipes de cada jogo realmente pertencem ao grupo listado para o ano correspondente.
+        Resultados Corretos: Validar que os resultados dos jogos refletem de forma precisa os gols marcados, verificando também que não existam discrepâncias nos dados dos jogos, como uma equipe sendo listada como vencedora mas com menos gols que o adversário.
+        Capacidade dos Estádios: Verificar que a capacidade dos estádios listada para cada Copa do Mundo seja consistente ou maior do que a capacidade registrada em Copas anteriores, assegurando uma validação temporal de dados.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 7
+
+  /json_8:
+    get:
+      summary: Retorna o JSON 8 como exemplo
+      description: |
+        Disponibilidade de Quartos: Certificar que os quartos de hotel listados nas reservas estejam disponíveis nas datas especificadas pela reserva do cliente, sem sobreposição com outras reservas.
+        Compatibilidade de Reservas: Garantir que as datas e locais de voos, hotéis, e veículos se alinhem de forma lógica. Por exemplo, um cliente não pode reservar um voo que chega em Londres e imediatamente depois um carro em Paris sem um voo intermediário.
+        Preço Total da Reserva: Verificar o preço total de cada reserva, incluindo todos os voos, estadias em hotéis e locações de veículos para garantir que o total cobrado está correto e que todas as taxas estão incluídas.
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 8
+
+  /json_9:
+    get:
+      summary: Retorna o JSON 9 como exemplo
+      description: |
+        Desafio de Validação Complexo:
+
+        Total de Gols:
+        Calcule o total de gols marcados pelo Brasil ao longo dos sete jogos da Copa do Mundo.
+
+        Total de Faltas:
+        Determine o total de faltas cometidas pela equipe brasileira durante toda a competição.
+
+        Total de Cartões:
+        Conte quantos cartões amarelos e vermelhos foram recebidos pelos jogadores do Brasil durante os sete jogos.
+
+        Desafio de Relatórios Detalhados:
+        Crie uma função que processe o JSON dos jogos do Brasil na Copa do Mundo e retorne um relatório detalhado para cada jogo, incluindo:
+        - Total de gols marcados pelo Brasil e pelos adversários.
+        - Nomes dos jogadores que marcaram gols para o Brasil e para os adversários, juntamente com os minutos em que os gols foram marcados.
+        - Total de faltas cometidas pelo Brasil e pelos adversários.
+        - Nomes dos jogadores que cometeram faltas para o Brasil e para os adversários, juntamente com os minutos em que as faltas ocorreram.
+        - Total de cartões (amarelos e vermelhos) recebidos pelo Brasil e pelos adversários.
+        - Nomes dos jogadores que receberam cartões para o Brasil e para os adversários, juntamente com os minutos em que os cartões foram mostrados.
+
+        Desafio de Estatísticas:
+        - Calcule a média de gols por jogo marcados pelo Brasil e pelos adversários.
+        - Identifique o jogo com o maior número de gols.
+        - Determine o jogador brasileiro com mais gols ao longo da competição.
+
+      responses:
+        "200":
+          description: Exemplo de resposta com JSON 9
