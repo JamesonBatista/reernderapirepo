@@ -1,0 +1,14 @@
+{
+	"type": "service_account",
+	"project_id": "restapiswagger",
+	"private_key_id": "37ab6e5628381f4852e62b80bce3da3357b96d3e",
+	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCvBqOha8WwhFJX\n/4KQBGb/9G29cxs11kI4aKQ1YHgGY3tB/tkmSo6x7OcCxh8/JXe1hincOGVRMMaJ\nx9uV7EjE52YbSDzImWFaFykNXLVTDPjkI+fl7VWqtW0CmfiKZttNhAA343N5dhbT\n5R1qqmKZn32lNihUVOGyR4CCP+NqwNmSh56SQCcf75bHoAR/Fnk31P1Efll3gneu\nMfL7nppeLC5R4zAKjly7Qy9uRRs4ueTitiK/c11fk5ccKaR/f22axJrGfh/Vrg34\nvgybISSd1cNWeef9g09uDkEhA0lJkxgmoQ3J0eBNT0MaXC13bQ809W625oAAY3Ge\nw3gTilPvAgMBAAECggEARBXbFXItJutydNTqX0e3IZ5eCjJ6xUih3fum1TS/vAx6\n6ENRCbo7JC+59bRId3IFzVFxez9c+mZ09SgP3ZRbAm3ZpIdHTemMm1UjHRWRW8tS\nDr2A+kqG5q9IxphKvNwiN1dAFn2ecANmAevAs7uwO351jA0zRwr1+TojXYeo2d+g\nr6a+vdJd+4bvRWVsefbF/UMkZ6gZnBit1P8R95DUucsUZVXOO48QvKoxkyzD4W5H\nCZvQ6h6UyhWf+qtTCllZ4ZmZaO4vb/zo0B+lN5STPvcH7fGFP759JeXQHDGGj6sj\nXdrMILOpCRi5T0isUcqi4Mjhfo1YFijfY108SG6WMQKBgQD2RcJTG+8lsMg8MJ9n\n9ylNdMHsVCdT+uVDGsK2DnpC7jlBQtdw+icgl12iw1KAg4E2rOWGBH0e00jm28Bz\ngKVYzWioPbjm1OMuPWU8jiKEDwT/Jo2K/F249C+xu3KvdOzqBsrpGzg0Bg0b8lKs\nvcM3aJsbux6pzHWlTpDhJ010JQKBgQC18HRBWsqXS7fDioYV3AWsQPHAZbiNd8Vp\nnmk0EDL6r+Ald9ucgeFRRTmyDIIbo8mi0v9HvTI5PUfLvhQFifGi8POlOpc6gfGb\nN8HqGzxVnLXTa6f32l5vK1/vjgk7m8v3XiH/X1/WCzEtuTfrQwCn3ZYrTg2J+N/x\n/KU6TXjBgwKBgGNKluGZNp9UmjaiR/LL1Ow0secNutmCI6Mdi/mI9sQ7dfwY7fHP\n+ayLOqZf58iGvLcFmHijIKsn9pGVcg9fg8q87oA+emke1gWTnVh/2eyyfYo9yf2K\naGMkmIIpGEEjfE2StYasgcl/0xM8bRbWX3nchAT3OZKuK5Sdi44roW+9AoGAfHLJ\nUprj0LF+NUbfiLxDNRwHQO9TWZD/e8tbcr1R4Z/D1l0x3tAIayrK2DsuE/HoznM9\nIrkLTZPZNEgEMfW1Txs5zV9SajbQKLfu8E9I6daTmNYewq6fwbMNoDKrphZfYgkF\ngESgrSxiqz/yO/5MyIYNXfm50RJnPILwEf1ECDkCgYBWXGyzomOCH8Aqc+IKlbdt\nQxcPyA0Aqwwy/vtdTKlixmYVOFsi28XebFelui9irVfvxkQpfRfxj55XfLEM86mK\nVzE5EEyVV74USzruwC9018v7iMqwwZSIc2IQ111lO9oKrfzkje5ffHQDYzLGEFrV\nImNQ1LeIqjSxeEWbzRLpNw==\n-----END PRIVATE KEY-----\n",
+	"client_email": "firebase-adminsdk-4gkr7@restapiswagger.iam.gserviceaccount.com",
+	"client_id": "104514790779855728980",
+	"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	"token_uri": "https://oauth2.googleapis.com/token",
+	"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4gkr7%40restapiswagger.iam.gserviceaccount.com",
+	"universe_domain": "googleapis.com"
+  }
+   
