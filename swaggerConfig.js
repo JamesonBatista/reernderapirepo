@@ -42,7 +42,7 @@ const swaggerDocument = {
   ],
   servers: [
     {
-      url: "https://api-desafio-qa.onrender.com/",
+      url: "https://reernderapirepo-production.up.railway.app/",
     },
   ],
   tags: [
