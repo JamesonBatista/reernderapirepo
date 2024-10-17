@@ -1,5 +1,5 @@
 let contador = 1;
-
+const local = "localhost"
 // Definindo a função que incrementa o contador
 function count() {
   return `             ​🇪​​🇳​​🇩​​🇵​​🇴​​🇮​​🇳​​🇹​:  ${contador++} `;
@@ -42,7 +42,7 @@ const swaggerDocument = {
   ],
   servers: [
     {
-      url: "https://reernderapirepo-production.up.railway.app/",
+      url: "http://localhost:3000", 
     },
   ],
   tags: [
