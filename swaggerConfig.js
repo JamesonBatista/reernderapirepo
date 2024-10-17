@@ -42,7 +42,7 @@ const swaggerDocument = {
   ],
   servers: [
     {
-      url: "https://reernderapirepo-production.up.railway.app/",
+      url: "http://localhost:3000",
     },
   ],
   tags: [
